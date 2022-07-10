@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Please edit this file only if you know what you're doing else just forget about it-->
+
+<manifest>
+
+<!--Device Specific Trees-->
+<project remote="github" name="TechWiz007/device_xiaomi_lisa" path="device/xiaomi/lisa" revision="twelve"/>
+<project remote="gitlab" name="lisa-oss/vendor_xiaomi_lisa" path="vendor/xiaomi/lisa" revision="twelve"/>
+<project remote="github" name="Atom-X-Devs/android_kernel_xiaomi_sm7325" path="kernel/xiaomi/lisa" revision="inline"/>
+
+<!--Neutron Clang for AtomX Kernel-->
+<project remote="gitlab" name="dakkshesh07/neutron-clang" path="prebuilts/clang/host/linux-x86/clang-neutron" revision="Neutron-15"/>
+
+<!--Pixel Sepolicy-->
+<project remote="github" name="PixelOS-Devices/hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" revision="twelve"/>
+
+<!--Display HAL-->
+<project remote="github" name="PixelOS-Pixelish/hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" revision="twelve"/>
+
+</manifest>
