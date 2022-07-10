@@ -6,6 +6,7 @@ echo "This script is to compile ArrowOS for Xiaomi 11 Lite NE (lisa)."
 echo "Updating and upgrading your system"
 sudo apt update -y
 sudo apt upgrade -y
+cd
 
 # Create a working dir for the ROM
 echo "Creating ArrowOS directory"
