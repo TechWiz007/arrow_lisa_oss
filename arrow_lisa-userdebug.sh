@@ -15,7 +15,7 @@ cd arrow
 
 # Repo init and repo sync
 echo "Downloading ArrowOS source code for you (minimal download to save space)..."
-repo init ==depth-1 -u https://github.com/ArrowOS/android_manifest.git -b arrow-12.1
+repo init ==depth=1 -u https://github.com/ArrowOS/android_manifest.git -b arrow-12.1
 git clone https://github.com/TechWiz007/local_manifests.git -b arrow-12.1 ./repo/local_manifests
 repo sync -c -j$(nproc --all)
 
