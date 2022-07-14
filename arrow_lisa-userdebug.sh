@@ -29,6 +29,7 @@ git clone https://gitlab.com/lisa-oss/vendor_xiaomi_lisa.git -b twelve vendor/xi
 git clone https://github.com/Atom-X-Devs/android_kernel_xiaomi_sm7325.git -b inline kernel/xiaomi/lisa
 git clone https://github.com/PixelOS-Devices/hardware_google_pixel-sepolicy.git -b twelve hardware/google/pixel-sepolicy
 git clone https://github.com/PixelOS-Pixelish/hardware_qcom-caf_sm8350_display.git -b twelve hardware/qcom-caf/sm8350/display
+git clone https://gitlab.com/lisa-oss/neutron-clang.git -b Neutron-15 prebuilts/clang/host/linux-x86/clang-neutron
 
 echo "Let us start the build for lisa"
 
